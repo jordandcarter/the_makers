@@ -1,0 +1,26 @@
+@charset "utf-8";
+@import "normalize";
+
+body {
+  font-family: 'Libre Baskerville', serif;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  background: url("/images/the-makers.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: block;
+  text-indent: -9999px;
+  width: 100%;
+  @media (min-width: 700px) {
+    height: 225px;
+  }
+  height: 150px;
+}
